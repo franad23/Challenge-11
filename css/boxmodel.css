@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.NavBar {
+    height: 50px;
+    width: 100%;
+    background-color: #808080;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.childNavBar {
+    padding: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    
+}
+.childNavBar:hover {
+    cursor: pointer;
+    background-color: #5b5b5b;
+}
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: #808080;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+.boxmodel-body{
+    background-color: rgb(85, 84, 84);
+}
+
+
+.box-inline-container{
+margin-top: 70px;
+}
+
+
+.box-inline{ 
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 3px solid black;
+    display: inline;
+    /* margin: 1%;
+    padding: 1%; */
+}
+
+.box-block-container{
+    /* margin-top: 10px; */
+
+}
+
+.box-block{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(25, 0, 255);
+    border: 3px solid black;
+    /* margin: 1%;
+    padding: 1%; */
+}
+
+.box-inline-block-container{
+
+    /* margin-top: 8%; */
+
+}
+.mainContainer {
+    margin-left: 120px;
+} 
+
+
+.box-inline-block{
+    display: inline-block;
+    width: 100px;
+    height:100px;
+    background-color: rgb(43, 255, 0);
+    border: 3px solid black;
+    /* margin: 1%;
+    padding: 1%; */
+
+}
+
+
+span{
+    color: rgb(49, 2, 2);
+}
+@media (max-width: 768px){
+    .box-inline{
+     background-color: yellow;
+    }
+
+    .box-block{
+     background-color: yellow;
+    }
+
+    .box-inline-block{
+     background-color: yellow;
+    }
+    .mainContainer {
+        margin-left: 120px;
+    } 
+    .NavBar {
+        height: 100%;
+        width: 100px;
+        background-color: #808080;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+        top: 0;
+    }
+}
+
+@media (max-width: 520px){
+    .box-inline{
+     display: none;
+    }
+
+    .box-block{
+     background-color: white;
+    }
+
+    .box-inline-block{
+    display: none;
+    }
+}

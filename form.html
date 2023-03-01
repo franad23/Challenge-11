@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo 3</title>
+    <link rel="stylesheet" href="./css/form.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="NavBar">
+      <a href="index.html" class="childNavBar">Inicio</a>
+      <a href="form.html" class="childNavBar">Formulario</a>
+      <a href="boxmodel.html" class="childNavBar">BoxModel</a>
+      <a href="position.html" class="childNavBar">Position</a>
+      <a href="position2.html" class="childNavBar">Position 2</a>
+      <a href="tabla.html" class="childNavBar">Tablas</a>
+      <a href="carrousel.html" class="childNavBar">Carrousel</a>
+    </nav>
+    <main>
+
+      <form>
+        <label for="text">Nombre y Apellido:</label>
+        <Input type="text" class="campo" placeholder="Escribir Nombre y Apellido..." value="" required>
+    
+        <label for="text">Contraseña:</label>
+        <Input type="text" class="campo" placeholder="Introducir Contraseña..." value="" required>
+        <br><br>
+    
+        <div>
+        <label for="email">Correo Electrónico:</label>
+        <Input id="mail" class="campo" type="email" placeholder="Escribir E-mail..." value="" required>
+        </div>
+        <br><br>
+    
+        <select class="campo" >
+          <option value="">Opción:</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+        </select>
+    
+        <input class="campo" type="datetime-local" id="fecha">
+        <br><br>
+    
+        <label for="text"></label>
+        <textarea class="campo"  name="texto" id="tarea" cols="30" rows="10" placeholder="Área de Texto..."></textarea>
+        <br><br>
+    
+        <input type="radio" name="radio" checked><label for="aceptar">Aceptar</label>
+        <input type="radio" name="radio" checked><label for="rechazar">Rechazar</label>
+        <br><br>
+    
+        <input type="checkbox" id="checkbox"><label for="tildar">(Tildar para aceptar texto)</label>
+        <br><br>
+    
+        <button type="submit">Enviar Datos</button>
+      </form>
+      <footer class="footer">
+        <p>Grupo 3 Comision 48i RC-Mauro Seu</p>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
